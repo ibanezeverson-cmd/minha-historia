@@ -1,7 +1,17 @@
-:root{
-    /* CSS HEX */
---khaki: #c3a995ff;
---beaver: #ab947eff;
---umber: #6f5e53ff;
---beaver-2: #8a7968ff;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --khaki: #c3a995ff;
+    --beaver: #ab947eff;
+    --umber: #6f5e53ff;
+    --beaver-2: #8a7968ff;
+    --titulo: "Oswald", sans-serif;
+    --texto: "Merriweather", serif;
+
+}
+
+body {
+    background-color: var(--khaki);
+    font-family: var(--texto);
+
 }
