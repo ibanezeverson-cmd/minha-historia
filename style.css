@@ -2,9 +2,10 @@
 
 :root {
     --khaki: #c3a995ff;
-    --beaver: #ab947eff;
+    --preto: rgb(0, 0, 0);
     --umber: #6f5e53ff;
-    --beaver-2: #8a7968ff;
+    --red: rgb(255, 0, 0);
+    --whit: #f1f1f1;
     --titulo: "Oswald", sans-serif;
     --texto: "Merriweather", serif;
 
@@ -18,4 +19,28 @@ body {
     justify-content: center;
     margin: 0%;
     padding: 0%;
+}
+
+button {
+    background-color: var(--umber);
+    color: var(--whit);
+    padding: flex;
+    border: 2px solid var(--umber);
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: var(--red);
+    color: var(--preto);
+    transition: 0.5s;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 10px #000;
+}
+main{
+    margin: 40px 20px;
+    max-width: 90%;
+    text-align: center;
+    font-size: 22px;
 }
